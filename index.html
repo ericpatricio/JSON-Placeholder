@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Placeholder</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>    
+    <!-- Navbar -->
+    <nav class="navbar">   
+      <div class="container">
+        <a href="#/" class="navbar-logo">
+          Eric Patricio
+        </a>
+      </div>         
+    </nav>
+
+    <!-- Hero section -->
+    <div class="hero">   
+      <div class="container">
+        <div class="hero-text">
+          <h1>JSON place holder</h1>
+          <p>Renders the data into the DOM.</p>
+        </div>  
+      </div>        
+    </div>
+
+  </header>
+
+  <main>    
+    <!-- App section -->
+    <section class="app">
+      <div class="container">
+        <h3>Click an user, and it will display all the user posts.</h3>
+        <div class="app-info">          
+          <table>
+            <tr>
+              <th>Users</th>
+            </tr>
+            <tbody id="name"></tbody>
+          </table>
+          <div id="results" class="results"></div> 
+        </div>        
+      </div>  
+    </section>
+  </main>  
+  
+
+  <!-- footer section-->
+  <footer class="footer">
+    <!--social icon section -->
+    <div class="social-icons">
+      <a href="https://github.com/ericpatricio" rel="noopener noreferrer" target="_blank"><i class="fab fa-github "></i></a>
+      <a href="https://codepen.io/ericwilmy/pens/" rel="noopener noreferrer" target="_blank"><i class="fab fa-codepen "></i></a>
+      <a href="https://www.instagram.com/ericwilmy/" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram "></i></a>
+      <a href="https://www.linkedin.com/in/eric-patricio-a0868b1b1/" rel="noopener noreferrer " target="_blank"><i
+          class="fab fa-linkedin-in "></i></a>
+    </div>
+    <p>
+      Copyright &copy; <span id="date"></span> Developed by Eric Patricio. All rights reserved.
+    </p>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
